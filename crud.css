@@ -59,7 +59,7 @@ button:hover{
     background-color: #ff0000;
 }
 .submit-button{
-    width: 28%;
+    width: 38%;
     border-radius: 10px;
     border: 2px ;
     color: white;
@@ -103,4 +103,10 @@ tr:hover {
 }
 .editbutton{
     color: #d30d0d;
+}
+
+@media (max-width:786px){
+ .main{
+    width:200px;
+ }
 }
